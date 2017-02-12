@@ -9,7 +9,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
     wget -nv http://www.scala-lang.org/files/archive/scala-2.12.1.deb && \
     dpkg -i scala-2.12.1.deb && \
     rm sbt-0.13.13.deb scala-2.12.1.deb && \
-    pip install awscli
+    pip install awscli && \
     apt-get clean
 
 CMD sbt
