@@ -1,4 +1,4 @@
-FROM openjdk:8u131-jdk-alpine
+FROM java:openjdk-8u111-jdk
 
 MAINTAINER aywengo <aywengo@gmail.com>
 
