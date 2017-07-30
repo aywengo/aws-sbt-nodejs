@@ -1,4 +1,4 @@
-FROM java:openjdk-8u112-jdk
+FROM java:openjdk-8u72-jdk
 
 MAINTAINER aywengo <aywengo@gmail.com>
 
