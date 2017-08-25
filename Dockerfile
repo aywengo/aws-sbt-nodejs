@@ -2,7 +2,7 @@ FROM java:openjdk-8u111-jdk
 
 MAINTAINER aywengo <aywengo@gmail.com>
 
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
+RUN curl -sL https://deb.nodesource.com/setup_5.x | bash - && \
     apt-get install -y nodejs python python-pip && \
     wget -nv http://dl.bintray.com/sbt/debian/sbt-0.13.16.deb && \
     dpkg -i sbt-0.13.16.deb && \
